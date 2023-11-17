@@ -8,7 +8,7 @@ import (
 	"fyne.io/fyne/v2/container"
 )
 
-func BuildSwatches(app *AppInnit) *fyne.Container {
+func BuildSwatches(app *AppInit) *fyne.Container {
 	canvasSwatches := make([]fyne.CanvasObject, 0, 64)
 	for i := 0; i < cap(canvasSwatches); i++ {
 		initialColour := color.NRGBA{0, 0, 0, 255}

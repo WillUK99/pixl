@@ -7,7 +7,7 @@ import (
 	"pixl/swatch"
 )
 
-type AppInnit struct {
+type AppInit struct {
 	PixlWindow fyne.Window
 	State      *apptype.State
 	Swatches   []*swatch.Swatch

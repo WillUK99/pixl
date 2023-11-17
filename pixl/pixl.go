@@ -18,7 +18,7 @@ func main() {
 		SwatchSelected: 0,
 	}
 
-	appInit := ui.AppInnit{
+	appInit := ui.AppInit{
 		PixlWindow: pixlWindow,
 		State:      &state,
 		Swatches:   make([]*swatch.Swatch, 0, 64),
